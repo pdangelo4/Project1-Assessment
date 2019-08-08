@@ -1,0 +1,126 @@
+/* * {
+    border: 1px solid black;
+} */
+
+html {
+    border-color: pink;
+    border: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    border-color: red;
+    
+}
+
+/* #main {
+    display: flex;
+} */
+
+#currentCount {
+    /* position: relative; */
+    position: absolute; top: 30%; left: 41.5%;
+    height: 45px;
+    width: 100px;
+    /* transform: rotate(-180deg); */
+    text-align: center;
+    font-size: 25pt;
+    font-weight: bold;
+}
+
+#plusbox {
+    /* position: relative; */
+    position: absolute; top: 50%; left: 25.5%;
+    height: 60px;
+    /* transform: rotate(-180deg); */
+    /* padding-right: 5pt; */
+}
+
+#inputbox {
+    /* position: relative; */
+    position: absolute; top: 50%; left: 33%; right: 30%;
+    height: 60px;
+    align-content: center;
+    /* transform: rotate(-180deg); */
+    /* z-index: -1; */
+    /* width: 60%; */
+    
+}
+
+#minusbox {
+    /* position: relative; */
+    position: absolute; top: 50%; left: 63%;
+    height: 60px;
+    /* transform: rotate(-180deg); */
+    /* z-index: 1; */
+    margin: auto;
+    
+}
+
+#plus {
+    position: relative; top: 0%; left: 0%;
+    height: 65px;
+    width: 65px;
+    border-radius: 10%;
+    border-style: solid;
+    border-color: grey;
+    color: white;
+    font-weight: bold;
+    font-size: 25pt;
+    background-color: darkgrey;
+}
+
+#plus:hover {
+    position: relative; top: 0%; left: 0%;
+    height: 65px;
+    width: 65px;
+    border-radius: 10%;
+    border-style: solid;
+    border-color: grey;
+    color: darkgray;
+    font-weight: bold;
+    font-size: 25pt;
+    background-color: white;
+}
+
+#input {
+    position: relative; top: 0%; left: 0%;
+    height: 60px;
+    text-align: center;
+    font-size: 25pt;
+    width: 70%;
+    border-style: solid;
+    border-color: darkgrey;
+    border-radius: 5%;
+    border-width: medium;
+ 
+}
+#minus {
+    position: relative; top: 0%; left: 0%;
+    height: 65px;
+    width: 65px;
+    border-radius: 10%;
+    border-style: solid;
+    border-color: grey;
+    color: white;
+    font-weight: bold;
+    font-size: 25pt;
+    background-color: darkgrey;
+}
+
+#minus:hover {
+    position: relative; top: 0%; left: 0%;
+    height: 65px;
+    width: 65px;
+    border-radius: 10%;
+    border-style: solid;
+    border-color: grey;
+    color: darkgray;
+    font-weight: bold;
+    font-size: 25pt;
+    background-color: white;
+}
